@@ -1,0 +1,8 @@
+[project]
+name = "baby-shark"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["pillow", "numpy", "scipy"]
+
+[tool.uv]
+package = false

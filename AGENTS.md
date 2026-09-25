@@ -12,4 +12,7 @@ style hints from.
   Pinkfong's video.
 - `reference/song.mp3` is copyrighted and ignored. Rebuild it as described in
   the README.
+- `uv run src/build.py` renders every drawing, `out/contact-sheet.png` and
+  `out/baby-shark.mp4`. Cut times live in `LINES` in `src/build.py`.
+- `storyboard.md` must match `src/scenes.py`.
 - Put renders in `out/` (ignored).
